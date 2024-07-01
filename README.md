@@ -4,7 +4,7 @@ Este projeto de e-commerce foi desenvolvido como parte do desafio Trilha Inicial
 
 ## Repositório do Projeto
 
-Você pode acessar o repositório do projeto no GitHub [aqui](https://github.com/ViniciusBorgesdeAraujo/TrilhaFullStackJR-JUN15).
+Você pode acessar o repositório do projeto no GitHub [aqui](https://github.com/ViniciusBorgesdeAraujo/TrilhaFullStackJR-JUN15-frontend).
 
 ## Tecnologias Utilizadas
 
