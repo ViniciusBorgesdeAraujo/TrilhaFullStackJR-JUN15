@@ -1,8 +1,12 @@
-import * as actionTypes from "../constants/cartConstants";
 import axios from "axios";
+import * as actionTypes from "../constants/cartConstants";
+
+const api = axios.create({
+  baseURL: "https://trilhafullstackjr-jun15.onrender.com/api",
+});
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {
-  const { data } = await axios.get(`/api/products/${id}`);
+  const { data } = await api.get(`/products/${id}`);
 
   dispatch({
     type: actionTypes.ADD_TO_CART,
